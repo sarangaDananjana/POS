@@ -95,9 +95,9 @@ WSGI_APPLICATION = "django_pos.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'passenger_database',
+        'NAME': 'DjangoPOS_database',
         'USER': 'admin',
-        'HOST': 'passenger-database.cn2mucy26tr9.ap-southeast-1.rds.amazonaws.com',
+        'HOST': 'djangopos-database.cn2mucy26tr9.ap-southeast-1.rds.amazonaws.com',
         'PORT': '3306',
         'PASSWORD': 'A0763003258z'
     }
